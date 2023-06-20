@@ -60,3 +60,22 @@ print("5 x 5 is \(5 * 5)")
 - 有许多内置的算术运算符，例如 +、-、* 和 /，以及特殊的复合赋值运算符，例如直接修改变量的 +=。
 - 您可以使用布尔值表示简单的 true 或 false 状态，可以使用 ! 运算符或调用 toggle()。
 - 字符串插值使我们能够以一种流线型、高效的方式将常量和变量放入我们的字符串中。
+
+## Checkpoint 1
+
+您的目标是编写一个 Swift 游乐场：
+
+创建一个保持任何摄氏温度的常量。
+通过乘以 9，除以 5，然后加 32，将其转换为华氏度。
+为用户打印结果，同时显示摄氏度和华氏度值。
+
+``` swift
+// 创建一个常量，用于保存摄氏温度
+let celsiusTemperature = 30.0
+// 创建一个常量，用于保存华氏温度
+let fahrenheitTemperature = (celsiusTemperature * 9 / 5) + 32
+
+// 打印结果
+print("摄氏温度：\(celsiusTemperature)℃")
+print("华氏温度：\(fahrenheitTemperature)℉")
+```
